@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rsis/rsis.dart';
 import './verify.dart';
 
 class User {
@@ -22,7 +23,7 @@ class Encoder extends State<Encryptor> {
   String k = "";
 
   encrypt(String value) {
-    int fl, hl, fl1, fl2, hl1, hl2;
+    /* int fl, hl, fl1, fl2, hl1, hl2;
     var str = value;
     var str1, str2, str3;
     print(str);
@@ -107,6 +108,14 @@ class Encoder extends State<Encryptor> {
       _displayValue = enc;
 
       k = key;
+    });
+    */
+
+    setState(() {
+      List<String> enc = Rsis.encrypt(text: value).split('(0)');
+      _displayValue = enc[0];
+
+      k = enc[1];
     });
   }
 

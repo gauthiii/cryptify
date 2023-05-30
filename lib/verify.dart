@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rsis/rsis.dart';
 import './encryption.dart';
 
 class Ver extends StatefulWidget {
@@ -27,7 +28,7 @@ class Decoder extends State<Ver> {
   }
 
   decrypt(String t1, String t2) {
-    var str = t1;
+    /*  var str = t1;
     var key = t2;
     int k, pos;
     var dec = "";
@@ -127,6 +128,10 @@ class Decoder extends State<Ver> {
     print(dec);
     setState(() {
       _displayValue = dec;
+    });*/
+
+    setState(() {
+      _displayValue = Rsis.decrypt(text: '$t1(0)$t2');
     });
   }
 

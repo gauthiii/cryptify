@@ -123,6 +123,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  rsis:
+    dependency: "direct main"
+    description:
+      name: rsis
+      sha256: ececa85067b480326d365b9ffecdf8d9f28a9815fe5cc30c7617a7fdb5185f0f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -186,3 +194,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.2 <4.0.0"
+  flutter: ">=1.17.0"
