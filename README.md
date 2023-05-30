@@ -22,7 +22,8 @@ This app uses the RSIS Algorithm to perform the cryptographic cipher methods. RS
 <img src="https://github.com/gauthiii/cryptify/assets/35861219/ff39a130-bf49-4222-b617-2527803a07ce" height="400">
 <img src="https://github.com/gauthiii/cryptify/assets/35861219/7b2665fa-3b9c-426b-91d1-9c95550fb0f5" height="400">
 <img src="https://github.com/gauthiii/cryptify/assets/35861219/eb521917-3923-4329-8f3c-eb6852513980" height="400">
-  <img src="https://github.com/gauthiii/cryptify/assets/35861219/5c4a3ee0-79d1-40f3-b7a9-be7a1173be66" height="400">
+<img src="https://github.com/gauthiii/cryptify/assets/35861219/079f64d4-b81b-414a-bb6a-102a0a673444" height="400">
+<!--  <img src="https://github.com/gauthiii/cryptify/assets/35861219/5c4a3ee0-79d1-40f3-b7a9-be7a1173be66" height="400"> -->
 
 </p>
 
