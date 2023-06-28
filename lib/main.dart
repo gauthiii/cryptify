@@ -5,6 +5,7 @@ import './encryption.dart';
 import './about.dart';
 import './alg.dart';
 import 'package:flutter/services.dart';
+import 'dart:io' show Platform;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -75,7 +76,9 @@ class F extends State<FirstRoute> {
                       fontFamily: "Alfa",
                       fontSize: 30.0,
                       color: Colors.black))),
-          Container(height: 150),
+          (Platform.isAndroid)
+              ? Container(height: 150)
+              : Container(height: 100),
           const Center(
               child: SelectableText(
                   "App Developed By: Gauthiii's Applications\n",
